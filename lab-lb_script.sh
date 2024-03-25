@@ -7,6 +7,6 @@ sudo apt-get install -y php8.2
 sudo apt-get install -y stress-ng
 cd /var/www/html/
 sudo rm index.html
-sudo wget https://raw.githubusercontent.com/ahmadzahoory/azadminv2/master/lab-lb-code.zip
+sudo wget https://raw.githubusercontent.com/ahmadzahoory/azopsv3/master/lab-lb-code.zip
 sudo unzip lab-lb-code.zip
 sudo systemctl restart apache2.service
